@@ -1,4 +1,4 @@
-let nombres=['photo', 'postcard', 'photo', 'photo', 'video']
+let nombres=[files]
 let nombresOrdenados=['photo', 'postcard', 'photo', 'photo', 'video'].sort();
 
 let contador=0;
