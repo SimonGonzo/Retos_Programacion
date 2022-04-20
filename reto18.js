@@ -1,3 +1,4 @@
+export default function fixFiles(files) {
 let nombres=[files]
 let nombresOrdenados=['photo', 'postcard', 'photo', 'photo', 'video'].sort();
 
@@ -8,7 +9,7 @@ for (var i = 0; i < nombresOrdenados.length; i++) {
     contador++
     nombresOrdenados[i]= nombresOrdenados[i]+"("+contador+")"
   }
-  
+}
 }
       document.write(nombresOrdenados)
 
